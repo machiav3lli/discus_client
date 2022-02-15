@@ -1,0 +1,12 @@
+*.iml
+*.pyc
+*.swp
+*.hprof
+.idea
+.gradle
+.DS_Store
+.externalNativeBuild
+.cxx
+local.properties
+/build
+/captures
