@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Theme.ReDesignDemocracy" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/mein_berlin_blue</item>
+        <item name="colorPrimaryVariant">@color/mein_berlin_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/mein_berlin_red</item>
+        <item name="colorSecondaryVariant">@color/mein_berlin_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:textColorTertiary">@color/grey_700</item>
+        <item name="android:textColorTertiaryInverse">@color/grey_300</item>
+        <item name="android:statusBarColor">?colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="actionBarTheme">@style/Widget.Material3.AppBarLayout</item>
+        <item name="dialogCornerRadius">12dp</item>
+    </style>
+
+    <style name="Button.Layout" parent="Widget.AppCompat.ActionButton">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+</resources>

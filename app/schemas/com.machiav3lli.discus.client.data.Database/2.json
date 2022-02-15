@@ -1,0 +1,88 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "3932ab24edf4f46da516e40191326daf",
+    "entities": [
+      {
+        "tableName": "Project",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`question` TEXT NOT NULL, `replyPositive` TEXT NOT NULL, `replyNeutral` TEXT NOT NULL, `replyNegative` TEXT NOT NULL, `argumentsPositive` TEXT NOT NULL, `argumentsNegative` TEXT NOT NULL, `webpage` TEXT NOT NULL, `invitation` TEXT NOT NULL, `meetingDateTime` INTEGER NOT NULL, `_id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "question",
+            "columnName": "question",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "replyPositive",
+            "columnName": "replyPositive",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "replyNeutral",
+            "columnName": "replyNeutral",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "replyNegative",
+            "columnName": "replyNegative",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "argumentsPositive",
+            "columnName": "argumentsPositive",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "argumentsNegative",
+            "columnName": "argumentsNegative",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "webpage",
+            "columnName": "webpage",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "invitation",
+            "columnName": "invitation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "meetingDateTime",
+            "columnName": "meetingDateTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "id",
+            "columnName": "_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "_id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '3932ab24edf4f46da516e40191326daf')"
+    ]
+  }
+}

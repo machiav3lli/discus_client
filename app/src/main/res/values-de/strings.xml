@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialogSave">Speichern</string>
+    <string name="dialogCancel">Abbrechen</string>
+    <string name="question">Die Frage:</string>
+    <string name="webpage">Projekts Webseite:</string>
+    <string name="answers_title">Die Antworten</string>
+    <string name="positive_reply">Positive Antwort:</string>
+    <string name="neutrale_reply">Neutrale Antwort:</string>
+    <string name="negative_reply">Negative Antwort:</string>
+    <string name="pro_arguments_title">Die Pro-Argumente</string>
+    <string name="contra_arguments_title">Die Gegenargumente</string>
+    <string name="contra_argument">Gegenargument %d:</string>
+    <string name="pro_argument">Pro-Argument %d:</string>
+    <string name="meeting_title">Konsultationstreffen</string>
+    <string name="meeting_time">Uhrzeit:</string>
+    <string name="meeting_date">Date:</string>
+    <string name="invitation_text">Einladungstext:</string>
+    <string name="delete">Löschen</string>
+    <string name="create">Erstellen</string>
+</resources>
